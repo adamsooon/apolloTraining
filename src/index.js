@@ -28,7 +28,7 @@ const errorLink = onError(({ graphQLErrors, networkError }) => {
 const httpLink = new HttpLink({
     uri: GITHUB_BASE_URL,
     headers: {
-        authorization: `Bearer 7bcd7eadb14d14b01b640485a09633fde606c79b`
+        authorization: `Bearer token`
     },
 });
 
