@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from '../../Link';
 import Button from '../../Button';
+import {isWatch} from "../../Utils";
 
 const RepositoryItem = ({
     id,
@@ -15,6 +16,7 @@ const RepositoryItem = ({
     viewerHasStarred,
     addStar,
     removeStar,
+    onWatch
 }) => (
     <div>
         <div className="RepositoryItem-title">
@@ -22,6 +24,13 @@ const RepositoryItem = ({
                 <Link href={url}>{name}</Link>
             </h2>
         </div>
+        <Button
+            className="RepositoryItem-title-action"
+            onClick={(id, viewerSubscription) => onWatch(id, viewerSubscription)}
+        >
+            {watchers.totalCount}{' '}
+            {isWatch(viewerSubscription) ? 'Unwatch' : 'Watch'}
+        </Button>
         {!viewerHasStarred ? (
             <Button
                 className={'RepositoryItem-title-action'}

@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b221f18a-2a43-4ed9-991c-78716cf15ba5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Profile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Profile/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/RepositoryItem/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/RepositoryItem/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/RepositoryList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/RepositoryList/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,32 +21,32 @@
     <session id="-1537738558">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="5" />
+          <entry key="project.open.time.4" value="7" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="js" value="16" />
+          <entry key="js" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JavaScript" value="16" />
+          <entry key="JavaScript" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="911" />
+          <entry key="js" value="1053" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="911" />
+          <entry key="JavaScript" value="1053" />
         </counts>
       </usages-collector>
     </session>
@@ -61,11 +65,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+            <state relative-caret-position="225">
+              <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Profile/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="192" column="30" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="30" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -74,13 +90,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Profile/index.js">
+        <entry file="file://$PROJECT_DIR$/src/Utils/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="90">
+              <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -106,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Repository/RepositoryItem/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="420">
+              <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -137,9 +150,13 @@
     <findStrings>
       <find>u</find>
       <find>setLoading</find>
-      <find>viewerSubscription</find>
       <find>watchers</find>
       <find>viewerHasStarred</find>
+      <find>isWatch</find>
+      <find>__typename</find>
+      <find>viewerSubscription</find>
+      <find>watch</find>
+      <find>WATCH_REPOSITORY</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,13 +170,14 @@
         <option value="$PROJECT_DIR$/src/Link/index.js" />
         <option value="$PROJECT_DIR$/src/Error/index.js" />
         <option value="$PROJECT_DIR$/src/Button/index.js" />
-        <option value="$PROJECT_DIR$/src/Repository/RepositoryList/index.js" />
         <option value="$PROJECT_DIR$/src/Repository/fragment.js" />
         <option value="$PROJECT_DIR$/src/Repository/fragments.js" />
         <option value="$PROJECT_DIR$/src/Repository/index.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/Utils/index.js" />
+        <option value="$PROJECT_DIR$/src/Repository/RepositoryList/index.js" />
         <option value="$PROJECT_DIR$/src/Repository/RepositoryItem/index.js" />
         <option value="$PROJECT_DIR$/src/Profile/index.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -188,6 +206,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,11 +281,16 @@
               <item name="Repository" type="462c0819:PsiDirectoryNode" />
               <item name="RepositoryList" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react-graphql-github-apollo-starter-kit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-graphql-github-apollo-starter-kit" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -325,23 +349,24 @@
       <workItem from="1550129522067" duration="2859000" />
       <workItem from="1550214922682" duration="13567000" />
       <workItem from="1550733901446" duration="391000" />
+      <workItem from="1550818987206" duration="4287000" />
+      <workItem from="1550839455576" duration="5530000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47520000" />
+    <option name="totallyTimeSpent" value="57337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4905956" visible="true" weight="0.24986821" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48746082" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" sideWeight="0.50940436" side_tool="true" weight="0.24986821" />
-      <window_info id="npm" order="2" sideWeight="0.50940436" side_tool="true" weight="0.24986821" />
+      <window_info id="npm" order="2" sideWeight="0.5125392" side_tool="true" weight="0.24986821" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32983193" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32983193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,7 +374,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32983193" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32914045" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -428,13 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/RepositoryList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/fragments.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -449,30 +467,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Profile/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Repository/RepositoryItem/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
+        <state relative-caret-position="420">
+          <caret line="28" column="80" selection-start-line="28" selection-start-column="80" selection-end-line="28" selection-end-column="80" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/RepositoryItem/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Utils/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="59" lean-forward="true" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/RepositoryList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" lean-forward="true" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="225">
+          <caret line="30" column="71" selection-start-line="30" selection-start-column="71" selection-end-line="30" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Profile/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="192" column="30" selection-start-line="192" selection-start-column="12" selection-end-line="192" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
